@@ -4,13 +4,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def query_example():
-    # if key doesn't exist, returns None
+    #Si no existe regresa None
     language = request.args.get('language')
 
-    # if key doesn't exist, returns a 400, bad request error
+    #Si no existe regresa error 400
     framework = request.args['framework']
 
-    # if key doesn't exist, returns None
+    #Si no existe regresa None
     website = request.args.get('website')
 
     return '''
