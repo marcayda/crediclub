@@ -21,7 +21,7 @@ Tanto los datos del cliente como la respuesta generada por la API se almacenan e
 <img src="https://user-images.githubusercontent.com/25446758/199859104-ceeed062-3a22-4d6d-b090-d0be79f63809.png" width="800" align="center">
 </p>
 
-Para efectos de demostración se creyó conveniente incluir el cliente dentro de la misa API con la finalidad de que el resultado se mostrara. Sin embargo, claro esta que si se estuviera trabajando en un ambiente real solamente se recibiría la petición y como respuesta se regresaría un archivo JSON con el resultado generado, pero para fines prácticos se dicidió realizar de esta manera.
+Para efectos de demostración se creyó conveniente incluir el cliente dentro de la misma API con la finalidad de que el resultado se mostrara de una forma atractiva y conveniente, regresando un HTML. Sin embargo, claro esta que sí se estuviera trabajando en un ambiente real solamente se recibiría la petición y como respuesta se regresaría un JSON con el resultado generado.
 
-También como es habitual, se trabajó dentro de un ambiente python el cual también se adjunta para poder recrear fácilmente la ejecuión del programa. 
+También como es habitual, se trabajó dentro de un ambiente virtual creado con anaconda para el código python el cual también se adjunta para poder recrear fácilmente el ejercicio. 
 
